@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./animate/animate.css">
+    <title>line</title>
+</head>
+<body>
+    <!------------------------Navbar------------------------>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="./img/6.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link scroll" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll" href="#about-us">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll" href="#testimonials">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#social-media">CONTACT</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <!--------------------Banner----------------------->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="promo-title  wow bounceInUp">
+                        Lorem Ipsum
+                    </p>
+                    <p class="wow bounceInDown">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                    <a href="#video"><img src="./img/unnamed.png" class="play-btn wow bounceInLeft" alt="play">Watch Video</a>
+                    <div class="overlay-video row" id="video">
+                        <video controls id="closeVideo">
+                            <source src="video.mp4" type="video/mp4">
+                        </video>
+                        <a href="#page" onclick="pauseVid()" class="close">&#215;</a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 text-center  wow bounceInUp">
+                    <img src="./img/55.png" alt="intro img" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1" d="M0,160L24,176C48,192,96,224,144,213.3C192,203,240,149,288,117.3C336,85,384,75,432,96C480,117,528,171,576,197.3C624,224,672,224,720,202.7C768,181,816,139,864,106.7C912,75,960,53,1008,48C1056,43,1104,53,1152,96C1200,139,1248,213,1296,234.7C1344,256,1392,224,1416,208L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
+        </svg>
+    </section>
+    <!---------------Services-------------->
+    <section id="services">
+        <div class="container text-center">
+            <h1 class="title wow lightSpeedIn">
+                WHAT WE DO ?
+            </h1>
+            <div class="row text-center">
+                <div class="col-md-4 services">
+                    <img src="./img/services/1.jpg" class="service-img wow zoomIn">
+                    <h4>
+                        Growth Marketing
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley 
+                    </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="./img/services/2.jpg" class="service-img-2 wow zoomIn">
+                    <h4>
+                        online branding
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley 
+                    </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="./img/services/1.jpg" class="service-img wow zoomIn">
+                    <h4>
+                        Growth Marketing
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley 
+                    </p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">All Services</button>
+        </div>
+    </section>
+    <!----------------------About Us---------------->
+    <section id="about-us">
+        <div class="container">
+            <h1 class="title text-center wow lightSpeedIn">WHY CHOOSE US ?</h1>
+            <div class="row">
+                <div class="col-md-6 about-us">
+                    <p class="about-title">
+                        Why we're Deferent
+                    </p>
+                    <ul>
+                        <li>Understand our client's business goal first</li>
+                        <li>Believe in doing business with honesty</li>
+                        <li>We deliver on time</li>
+                        <li>We cereate a winning content strategy</li>
+                        <li>We protect your online reputation</li>
+                        <li>We cereate a winning content strategy</li>
+                        <li>WE protect your online reputation</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/11.jpg" alt="about img" class="img-fluid wow fadeInUp">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------Testimonials--------------->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h1 class="title text-center wow lightSpeedIn">WHAT CLIENT SAY ?</h1>
+            <div class="row">
+                <div class="slider">
+                    <div id="testimonials-slider" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption">
+                                <img src="./img/3.jpg" class="d-block rounded-circle" alt="client">
+                                <h3>
+                                    Mohamed Salah
+                                    <span>
+                                        -
+                                        web developer in Google
+                                    </span>
+                                </h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <img src="./img/6.jpg" class="d-block rounded-circle" alt="client">
+                                <h3>
+                                    Amy 
+                                    <span>
+                                        -
+                                        web developer in Microsoft
+                                    </span>
+                                </h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <img src="./img/5.jpg" class="d-block rounded-circle" alt="client">
+                                <h3>
+                                    Allison Becker
+                                    <span>
+                                        -
+                                        web developer in Google
+                                    </span>
+                                </h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <img src="./img/10.jpg" class="d-block rounded-circle" alt="client">
+                                <h3>
+                                    Anita 
+                                    <span>
+                                        -
+                                        web developer in Microsoft
+                                    </span>
+                                </h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#testimonials-slider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#testimonials-slider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------------Social icons---------------->
+    <section id="social-media">
+        <div class="container">
+            <h1 class="title text-center wow lightSpeedIn">
+                FIND US ON social-media
+            </h1>
+            <div class="social-icons">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fab fa-facebook-f" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fab fa-twitter" aria-hidden="true"></span>
+                        </a>
+                    </li>  <li>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fab fa-google-plus-g" aria-hidden="true"></span>
+                        </a>
+                    </li>  <li>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fab fa-linkedin-in" aria-hidden="true"></span>
+                        </a>
+                    </li>  <li>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fab fa-instagram" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!---------------Footer------------------->
+    <section id="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f8f9fa" fill-opacity="1" d="M0,224L8.6,234.7C17.1,245,34,267,51,277.3C68.6,288,86,288,103,272C120,256,137,224,154,229.3C171.4,235,189,277,206,261.3C222.9,245,240,171,257,122.7C274.3,75,291,53,309,90.7C325.7,128,343,224,360,229.3C377.1,235,394,149,411,133.3C428.6,117,446,171,463,197.3C480,224,497,224,514,197.3C531.4,171,549,117,566,128C582.9,139,600,213,617,234.7C634.3,256,651,224,669,224C685.7,224,703,256,720,234.7C737.1,213,754,139,771,128C788.6,117,806,171,823,170.7C840,171,857,117,874,122.7C891.4,128,909,192,926,192C942.9,192,960,128,977,90.7C994.3,53,1011,43,1029,64C1045.7,85,1063,139,1080,149.3C1097.1,160,1114,128,1131,117.3C1148.6,107,1166,117,1183,144C1200,171,1217,213,1234,224C1251.4,235,1269,213,1286,181.3C1302.9,149,1320,107,1337,128C1354.3,149,1371,235,1389,229.3C1405.7,224,1423,128,1431,80L1440,32L1440,0L1431.4,0C1422.9,0,1406,0,1389,0C1371.4,0,1354,0,1337,0C1320,0,1303,0,1286,0C1268.6,0,1251,0,1234,0C1217.1,0,1200,0,1183,0C1165.7,0,1149,0,1131,0C1114.3,0,1097,0,1080,0C1062.9,0,1046,0,1029,0C1011.4,0,994,0,977,0C960,0,943,0,926,0C908.6,0,891,0,874,0C857.1,0,840,0,823,0C805.7,0,789,0,771,0C754.3,0,737,0,720,0C702.9,0,686,0,669,0C651.4,0,634,0,617,0C600,0,583,0,566,0C548.6,0,531,0,514,0C497.1,0,480,0,463,0C445.7,0,429,0,411,0C394.3,0,377,0,360,0C342.9,0,326,0,309,0C291.4,0,274,0,257,0C240,0,223,0,206,0C188.6,0,171,0,154,0C137.1,0,120,0,103,0C85.7,0,69,0,51,0C34.3,0,17,0,9,0L0,0Z"></path>
+        </svg>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="./img/6.png" alt="logo img">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> Egypt,Alexandria,El Agamy, 21k 
+                    </p>
+                    <p> <i class="fas fa-phone-alt"></i> 01270130084</p>
+                    <p><i class="fas fa-envelope"></i> mohassan787898@gmail.com</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                    <input type="email" class="form-control" placeholder="Your Email">
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &copy; Mo.Hassan
+            </p>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/fc1e322aff.js" crossorigin="anonymous"></script>
+    <script src="./wow/wow.min.js"></script>
+    <script src="./js.js"></script>
+</body>
+</html>
